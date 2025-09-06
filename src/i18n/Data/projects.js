@@ -60,6 +60,35 @@ export const projectsData = {
       demoLink: "https://portaltest.menofia.edu.eg/",
       githubLink: "",
     },
+    {
+      title: "لعبة خمن الكلمة",
+      description:
+        "لعبة تفاعلية ممتعة لاختبار مهاراتك في تخمين الكلمات بطريقة شيقة مع دعم الوضع الليلي والنهاري",
+      tech: ["HTML", "CSS", "JavaScript"],
+      features: [
+        "واجهة مستخدم بسيطة ومتجاوبة",
+        "نظام نقاط لتتبع التقدم",
+        "إمكانية إعادة التشغيل لتحسين النتائج",
+        "الوضع الداكن والفاتح لراحة المستخدم",
+      ],
+      demoLink: "https://abdelrahmanshams1.github.io/Guess_The_Word/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Guess_The_Word",
+    },
+    {
+      title: "لعبة اختبار سرعة الكتابة",
+      description:
+        "لعبة ويب ممتعة لاختبار وتحسين سرعة ودقة الكتابة بثلاث مستويات صعوبة",
+      tech: ["HTML", "CSS", "JavaScript"],
+      features: [
+        "3 مستويات صعوبة (سهل – متوسط – صعب)",
+        "مؤقت زمني حي مع تتبع النقاط",
+        "واجهة مستخدم تفاعلية مع مؤثرات ديناميكية",
+        "حفظ النتائج يوميًا في Local Storage",
+        "تصميم متجاوب يعمل على جميع الأجهزة",
+      ],
+      demoLink: "https://abdelrahmanshams1.github.io/Typing_Speed_Test_Game/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Typing_Speed_Test_Game",
+    },
   ],
   en: [
     {
@@ -121,6 +150,36 @@ export const projectsData = {
       ],
       demoLink: "https://portaltest.menofia.edu.eg/",
       githubLink: "",
+    },
+    {
+      title: "Guess The Word Game",
+      description:
+        "Fun and engaging word guessing game with light and dark mode support",
+      tech: ["HTML", "CSS", "JavaScript"],
+      features: [
+        "Simple and responsive user interface",
+        "Score tracking system",
+        "Reset functionality to replay and improve scores",
+        "Dark and light mode for better user experience",
+      ],
+      demoLink: "https://abdelrahmanshams1.github.io/Guess_The_Word/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Guess_The_Word",
+    },
+    {
+      title: "Typing Speed Test Game",
+      description:
+        "Web-based game designed to test and improve typing speed and accuracy with three difficulty levels",
+      tech: ["HTML", "CSS", "JavaScript"],
+      features: [
+        "3 difficulty levels (Easy, Medium, Hard)",
+        "Real-time feedback with countdown timer",
+        "Engaging UI with animations and dynamic effects",
+        "Programming-related word lists for each level",
+        "Daily score tracking with local storage",
+        "Responsive design for desktop and mobile",
+      ],
+      demoLink: "https://abdelrahmanshams1.github.io/Typing_Speed_Test_Game/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Typing_Speed_Test_Game",
     },
   ],
 };
