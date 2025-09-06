@@ -286,14 +286,15 @@ const Portfolio = () => {
                   <span>{t("hero.contactMe")}</span>
                 </a>
 
-                <button
-                  onClick={() => scrollToSection("projects")}
+                <a
+                  href="/CV/Abdelrahman_Shams_Eldin_CV.pdf"
+                  download="Abdelrahman_Shams_Eldin_CV.pdf"
                   className="flex items-center space-x-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-blue-500 px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105"
                 >
                   <FolderOpen className="w-5 h-5" />
-                  <span>{t("hero.viewWork")}</span>
+                  <span>{t("hero.downloadCV")}</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </button>
+                </a>
               </div>
 
               <div

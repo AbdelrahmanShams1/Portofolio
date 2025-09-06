@@ -15,7 +15,7 @@ export const en = {
       description:
         "Full-stack developer specialized in building interactive and modern web applications using MongoDB, Express.js, React, and Node.js",
       contactMe: "Contact Me",
-      viewWork: "View Work",
+      downloadCV: "Download CV",
     },
     about: {
       title: "About Me",

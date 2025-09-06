@@ -14,7 +14,7 @@ export const ar = {
       description:
         "مطور ويب  متخصص في بناء تطبيقات ويب تفاعلية وحديثة باستخدام MongoDB، Express.js، React، و Node.js",
       contactMe: "تواصل معي",
-      viewWork: "شاهد الأعمال",
+      downloadCV: "تحميل السيرة الذاتية",
     },
     about: {
       title: "عن نفسي",
