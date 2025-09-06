@@ -3,16 +3,15 @@ export const projectsData = {
     {
       title: "مسابقة القرآن الكريم",
       description:
-        "تطبيق تفاعلي لشهر رمضان يشارك فيه 200+ مستخدم للأنشطة الإسلامية اليومية",
+        "تطبيق تفاعلي لشهر رمضان يشارك فيه 50+ مستخدم للأنشطة الإسلامية اليومية",
       tech: ["React.js", "Firebase", "Tailwind CSS"],
       features: [
         "حقق 95% استجابة للهواتف المحمولة",
         "استخدم Firebase Authentication وقاعدة البيانات في الوقت الفعلي",
         "واجهة مستخدم تفاعلية وجذابة",
       ],
-      period: "مارس 2025 – أبريل 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://abdelrahmanshams1.github.io/Quran_Compition/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Quran_Compition",
     },
     {
       title: "عرض مشاريع هندسة الحاسوب",
@@ -24,12 +23,11 @@ export const projectsData = {
         "تصميم واجهة مستخدم نظيفة ومتجاوبة",
         "تحسين تجربة الهاتف المحمول بشكل كبير",
       ],
-      period: "يوليو 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://csegradution.netlify.app/",
+      githubLink: "https://github.com/AbdelrahmanShams1/CSE_Projects",
     },
     {
-      title: "منصة نافاني للخدمات",
+      title: "منصة نفعني للخدمات",
       description:
         "منصة شاملة تربط مقدمي الخدمات مع العملاء مع لوحة تحكم إدارية متقدمة",
       tech: ["React.js", "Firebase", "Tailwind CSS", "Context API"],
@@ -39,25 +37,43 @@ export const projectsData = {
         "لوحة تحكم إدارية لإدارة 100+ مستخدم",
         "تقليل العمليات اليدوية بنسبة 70%",
       ],
-      period: "مارس 2025 – مايو 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://abdelrahmanshams1.github.io/nafany/",
+      githubLink: "https://github.com/AbdelrahmanShams1/nafany",
+    },
+    {
+      title: "بوابة جامعة المنوفية",
+      description:
+        "إعادة بناء البوابة الرسمية لجامعة المنوفية مع لوحات معلومات ديناميكية ودعم متعدد اللغات",
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "Context API",
+        "Zustand",
+        "react-i18next",
+      ],
+      features: [
+        "تنفيذ لوحات معلومات ديناميكية (مدير، مالك، مستخدم) مع عرض محتوى قائم على الأدوار",
+        "تطوير مكونات قابلة لإعادة الاستخدام باستخدام React Hooks و Context API",
+        "دمج المصادقة ودعم متعدد اللغات",
+        "التعاون مع الفريق باستخدام Git Workflow ومراجعة الأكواد",
+      ],
+      demoLink: "https://portaltest.menofia.edu.eg/",
+      githubLink: "",
     },
   ],
   en: [
     {
       title: "Quran Competition App",
       description:
-        "Interactive Ramadan app with 200+ users participating in daily Islamic activities",
+        "Interactive Ramadan app with 50+ users participating in daily Islamic activities",
       tech: ["React.js", "Firebase", "Tailwind CSS"],
       features: [
         "Achieved 95% mobile responsiveness",
         "Used Firebase Authentication and real-time database",
         "Interactive and engaging user interface",
       ],
-      period: "March 2025 – April 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://abdelrahmanshams1.github.io/Quran_Compition/",
+      githubLink: "https://github.com/AbdelrahmanShams1/Quran_Compition",
     },
     {
       title: "Computer Engineering Projects Showcase",
@@ -69,9 +85,8 @@ export const projectsData = {
         "Clean and responsive user interface design",
         "Significantly improved mobile experience",
       ],
-      period: "July 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://csegradution.netlify.app/",
+      githubLink: "https://github.com/AbdelrahmanShams1/CSE_Projects",
     },
     {
       title: "Nafany Services Platform",
@@ -84,9 +99,28 @@ export const projectsData = {
         "Admin dashboard managing 100+ users",
         "Reduced manual operations by 70%",
       ],
-      period: "March 2025 – May 2025",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://abdelrahmanshams1.github.io/nafany/",
+      githubLink: "https://github.com/AbdelrahmanShams1/nafany",
+    },
+    {
+      title: "Menoufia University Portal",
+      description:
+        "Rebuilt the official Menoufia University portal with dynamic dashboards and multi-language support",
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "Context API",
+        "Zustand",
+        "react-i18next",
+      ],
+      features: [
+        "Implemented dynamic dashboards (Admin, Owner, User) with role-based content display",
+        "Developed reusable components using React Hooks and Context API",
+        "Integrated authentication and multi-language support",
+        "Collaborated with a frontend team using Git Workflow and code reviews",
+      ],
+      demoLink: "https://portaltest.menofia.edu.eg/",
+      githubLink: "",
     },
   ],
 };
