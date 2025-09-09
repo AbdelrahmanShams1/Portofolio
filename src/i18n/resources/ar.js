@@ -10,7 +10,7 @@ export const ar = {
     },
     hero: {
       name: "عبدالرحمن شمس الدين",
-      title: "MERN Stack Developer",
+      title: "Full-Stack Developer",
       description:
         "مطور ويب  متخصص في بناء تطبيقات ويب تفاعلية وحديثة باستخدام MongoDB، Express.js، React، و Node.js",
       contactMe: "تواصل معي",

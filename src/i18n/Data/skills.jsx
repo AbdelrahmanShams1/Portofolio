@@ -12,6 +12,8 @@ export const skillsData = {
         "CSS3",
         "Tailwind CSS",
         "Bootstrap",
+        "Material UI",
+        "TypeScript",
       ],
       icon: <Globe className="w-6 h-6" />,
     },

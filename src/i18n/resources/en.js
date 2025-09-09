@@ -11,7 +11,7 @@ export const en = {
     },
     hero: {
       name: "Abdelrahman Shams Eldine",
-      title: "MERN Stack Developer",
+      title: "Full-Stack Developer",
       description:
         "Full-stack developer specialized in building interactive and modern web applications using MongoDB, Express.js, React, and Node.js",
       contactMe: "Contact Me",

@@ -89,6 +89,35 @@ export const projectsData = {
       demoLink: "https://abdelrahmanshams1.github.io/Typing_Speed_Test_Game/",
       githubLink: "https://github.com/AbdelrahmanShams1/Typing_Speed_Test_Game",
     },
+    {
+      title: "لوحة متابعة الحياة LifeTrack",
+      description:
+        "لوحة تحكم شاملة تشمل: To-Do List، ملاحظات يومية، قائمة تسوق، تتبع العادات، تذكيرات، تتبع المصاريف، والمخطط الأسبوعي",
+      tech: ["React.js", "Tailwind CSS", "Firebase", "Redux Toolkit"],
+      features: [
+        "واجهة مستخدم ديناميكية وتفاعلية",
+        "تصميم متجاوب ونظيف مع تنقل سلس",
+        "إدارة الحالة باستخدام Redux Toolkit",
+        "تخزين البيانات على Firebase لضمان التحديث الفوري",
+      ],
+      demoLink: "https://lifetrack1.netlify.app/",
+      githubLink: "https://github.com/AbdelrahmanShams1/LifeTrack",
+    },
+    {
+      title: "منصة التجارة الإلكترونية Shopifya",
+      description:
+        "تطبيق تجارة إلكترونية متكامل مع واجهة مستخدم للعملاء ولوحة تحكم إدارية",
+      tech: ["Angular", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+      features: [
+        "واجهة العميل: تصفح المنتجات، عربة التسوق، الدفع، وتتبع الطلبات",
+        "لوحة الإدارة: إدارة المنتجات، المستخدمين، والطلبات مع تحديثات فورية",
+        "تطوير APIs باستخدام Node.js و Express وربط MongoDB",
+        "تطبيق نظام مصادقة وتفويض JWT لحماية البيانات",
+      ],
+      demoLink: "",
+      githubLink:
+        "Frontend: https://github.com/AbdelrahmanShams1/Shopifya_Angular | Backend: https://github.com/AbdelrahmanShams1/Shopifya_Backend",
+    },
   ],
   en: [
     {
@@ -180,6 +209,35 @@ export const projectsData = {
       ],
       demoLink: "https://abdelrahmanshams1.github.io/Typing_Speed_Test_Game/",
       githubLink: "https://github.com/AbdelrahmanShams1/Typing_Speed_Test_Game",
+    },
+    {
+      title: "LifeTrack Dashboard",
+      description:
+        "Comprehensive dashboard including: To-Do List, Daily Notes, Shopping List, Habit Tracker, Reminders, Expense Tracker, and Weekly Planner",
+      tech: ["React.js", "Tailwind CSS", "Firebase", "Redux Toolkit"],
+      features: [
+        "Dynamic and interactive user interface",
+        "Clean and responsive design with smooth navigation",
+        "State management using Redux Toolkit",
+        "Data storage on Firebase for real-time updates",
+      ],
+      demoLink: "https://lifetrack1.netlify.app/",
+      githubLink: "https://github.com/AbdelrahmanShams1/LifeTrack",
+    },
+    {
+      title: "Shopifya E-Commerce Platform",
+      description:
+        "Full-stack e-commerce application with Customer interface and Admin Dashboard",
+      tech: ["Angular", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+      features: [
+        "Customer Side: product browsing, shopping cart, checkout, and order tracking",
+        "Admin Dashboard: manage products, users, and orders with real-time updates",
+        "Developed RESTful APIs using Node.js and Express, integrated MongoDB",
+        "Implemented JWT Authentication and Authorization for secure access",
+      ],
+      demoLink: "",
+      githubLink:
+        "Frontend: https://github.com/AbdelrahmanShams1/Shopifya_Angular | Backend: https://github.com/AbdelrahmanShams1/Shopifya_Backend",
     },
   ],
 };
